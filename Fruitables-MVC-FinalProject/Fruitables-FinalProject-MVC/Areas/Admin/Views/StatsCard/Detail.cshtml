@@ -1,0 +1,28 @@
+﻿@model StatsCard
+
+<div class="container mt-5">
+    <form method="post" asp-action="Create" class="forms-sample">
+
+        <div class="form-group">
+            <label class="text-info">Name: </label>
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="form-group">
+            <label class="text-info">Icon Name: </label>
+            <h3>@Model.IconName</h3>
+        </div>
+
+        <div class="form-group">
+            <label class="text-info">Value: </label>
+            <h3>@Model.Value</h3>
+        </div>
+
+        <div class="form-group">
+            <label class="text-info">Is Percent: </label>
+            <h3>@Model.IsPercent</h3>
+        </div>
+
+        <a asp-action="Index" class="btn btn-light">Back</a>
+    </form>
+</div> 

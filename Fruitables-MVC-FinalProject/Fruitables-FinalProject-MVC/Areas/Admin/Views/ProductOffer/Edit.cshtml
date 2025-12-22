@@ -1,0 +1,38 @@
+﻿@model ProductOfferEdit
+
+<div class="container mt-5">
+    <form method="post" asp-action="Edit" enctype="multipart/form-data" class="forms-sample">
+        <div class="form-group">
+            <label>Name: </label>
+            <input asp-for="Name" type="text" class="form-control" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label>Description: </label>
+            <input asp-for="Description" type="text" class="form-control" />
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label>New Image: </label>
+            <input asp-for="Image" type="file" class="form-control" />
+            <span class="text-danger" asp-validation-for="Image"></span>
+        </div>
+        <div class="form-group">
+            <label>Name Color: </label>
+            <input asp-for="NameColor" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="NameColor"></span>
+        </div>
+        <div class="form-group">
+            <label>Background Color: </label>
+            <input asp-for="BackgroundColor" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="BackgroundColor"></span>
+        </div>
+        <div class="form-group">
+            <label>Text Color: </label>
+            <input asp-for="TextColor" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="TextColor"></span>
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>

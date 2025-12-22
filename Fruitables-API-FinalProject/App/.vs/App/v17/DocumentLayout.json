@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93F37F7C-FA3B-4A7D-93B3-A66EA90B745C}|App.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-api-finalproject\\app\\controllers\\client\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F37F7C-FA3B-4A7D-93B3-A66EA90B745C}|App.csproj|solutionrelative:controllers\\client\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99FD3888-453A-463B-9C2F-4693AAF48068}|..\\Repository\\Repository.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-api-finalproject\\repository\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C02420-3DA2-4AAC-8F6D-4F3CF34164A3}|..\\Service\\Service.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-api-finalproject\\service\\services\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C02420-3DA2-4AAC-8F6D-4F3CF34164A3}|..\\Service\\Service.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-api-finalproject\\service\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 323,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Service\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Service\\Services\\BasketService.cs",
+              "RelativeToolTip": "..\\Service\\Services\\BasketService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:20:58.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Service\\Services\\Interfaces\\IBasketService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Services\\Interfaces\\IBasketService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Service\\Services\\Interfaces\\IBasketService.cs",
+              "RelativeToolTip": "..\\Service\\Services\\Interfaces\\IBasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:20:53.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Repository\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\Repository\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "..\\Repository\\Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:19:53.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\App\\Controllers\\Client\\BasketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Client\\BasketController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-API-FinalProject\\App\\Controllers\\Client\\BasketController.cs",
+              "RelativeToolTip": "Controllers\\Client\\BasketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T18:18:34.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

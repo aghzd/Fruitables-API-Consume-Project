@@ -1,0 +1,23 @@
+﻿@model ProductImageEdit
+
+<div class="container mt-5">
+    <form method="post" asp-action="Edit" enctype="multipart/form-data" class="forms-sample">
+        <div class="form-group">
+            <label>Product Id: </label>
+            <input asp-for="ProductId" type="text" class="form-control" />
+            <span class="text-danger" asp-validation-for="ProductId"></span>
+        </div>
+        <div class="form-group">
+            <label>Image: </label>
+            <input asp-for="Name" type="file" class="form-control" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label>Is Main: </label>
+            <input asp-for="IsMain" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="IsMain"></span>
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>

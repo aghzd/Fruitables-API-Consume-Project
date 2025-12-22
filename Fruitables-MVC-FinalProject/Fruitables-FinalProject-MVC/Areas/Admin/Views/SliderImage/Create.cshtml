@@ -1,0 +1,26 @@
+﻿@model SliderImageCreate
+
+<div class="container mt-5">
+    <form method="post" asp-action="Create" enctype="multipart/form-data" class="forms-sample">
+        <div class="form-group">
+            <label>Category Name: </label>
+            <input asp-for="CategoryName" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="CategoryName"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Image: </label>
+            <input asp-for="Image" class="form-control" type="file" maxlength="none">
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Is Active: </label>
+            <input asp-for="IsActive" class="form-control" maxlength="none">
+            <span class="text-danger" asp-validation-for="IsActive"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>

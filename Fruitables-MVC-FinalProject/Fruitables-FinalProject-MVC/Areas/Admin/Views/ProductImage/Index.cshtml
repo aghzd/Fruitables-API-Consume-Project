@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProductImage>
+<div class="container">
+    <h1 class="text-center mt-5">Product Images</h1>
+    <div class="table-responsive">
+        <a class="btn btn-success" asp-action="Create">Create</a>
+        <table class="table mt-2">
+            <thead>
+                <tr>
+                    <th scope="col">Product Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Is Main</th>
+                    <th scope="col">Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductId</td>
+                        <td><img style="height: 100px; width: 100px;" src="@item.Name"></td>
+                        <td>@item.IsMain</td>
+                        <td class="d-flex" style="gap:10px;">
+                            <button  class="btn btn-danger delete-pimg-btn" data-id="@item.Id">Delete</button>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-primary" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
