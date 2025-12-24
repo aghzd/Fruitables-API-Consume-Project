@@ -142,3 +142,20 @@ deleteProductOfferBtns.forEach(btn => {
             })
     })
 }); 
+
+
+let deleteContactBtns = document.querySelectorAll(".delete-contact-btn");
+
+deleteContactBtns.forEach(btn => {
+    btn.addEventListener("click", function () {
+        let id = parseInt(this.getAttribute("data-id"));
+
+        fetch('/Admin/Contact/Delete/' + id, {
+            method: 'POST'
+        })
+            .then(res => res.text())
+            .then(res => {
+                btn.parentNode.parentNode.remove();
+            })
+    })
+});

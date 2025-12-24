@@ -15,4 +15,4 @@ namespace Fruitables_FinalProject_MVC.Models.Account
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }
-}
+}   

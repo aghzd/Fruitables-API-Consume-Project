@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\wwwroot\\js\\basket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:wwwroot\\js\\basket.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\areas\\admin\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:areas\\admin\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:areas\\admin\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\wwwroot\\admin\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:wwwroot\\admin\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\services\\contactadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:services\\contactadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\services\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:services\\interfaces\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\models\\basket\\addbasketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:models\\basket\\addbasketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|c:\\users\\user\\desktop\\pb104\\pb104all\\finalprojectpb104\\fruitables-mvc-finalproject\\fruitables-finalproject-mvc\\services\\interfaces\\icontactadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6004D15-D7C0-4D6F-AE5A-2BC2A13F5941}|Fruitables-FinalProject-MVC.csproj|solutionrelative:services\\interfaces\\icontactadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,89 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "basket.js",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\wwwroot\\js\\basket.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\basket.js",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\wwwroot\\js\\basket.js",
-              "RelativeToolTip": "wwwroot\\js\\basket.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-22T18:41:12.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKcAAABIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-22T17:06:34.529Z",
+              "WhenOpened": "2025-12-24T21:15:47.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-22T17:02:48.05Z",
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\wwwroot\\admin\\js\\custom.js",
+              "RelativeDocumentMoniker": "wwwroot\\admin\\js\\custom.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\wwwroot\\admin\\js\\custom.js",
+              "RelativeToolTip": "wwwroot\\admin\\js\\custom.js",
+              "ViewState": "AgIAAIAAAAAAAAAAAADwv5YAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-24T20:30:24.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBasketService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\Interfaces\\IBasketService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IBasketService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\Interfaces\\IBasketService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IBasketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Areas\\Admin\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:20:40.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\BasketService.cs",
-              "RelativeDocumentMoniker": "Services\\BasketService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\BasketService.cs",
-              "RelativeToolTip": "Services\\BasketService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:17:31.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddBasketItem.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Models\\Basket\\AddBasketItem.cs",
-              "RelativeDocumentMoniker": "Models\\Basket\\AddBasketItem.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Models\\Basket\\AddBasketItem.cs",
-              "RelativeToolTip": "Models\\Basket\\AddBasketItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:16:52.078Z"
+              "WhenOpened": "2025-12-24T19:51:34.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "Controllers\\BasketController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAYwCgAAAAlAAAAAAAAAA==",
+              "Title": "ContactAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\ContactAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\ContactAdminService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\ContactAdminService.cs",
+              "RelativeToolTip": "Services\\ContactAdminService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:16:29.667Z",
+              "WhenOpened": "2025-12-24T19:37:03.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContactAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\Interfaces\\IContactAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IContactAdminService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\PB104\\Pb104All\\FinalProjectPB104\\Fruitables-MVC-FinalProject\\Fruitables-FinalProject-MVC\\Services\\Interfaces\\IContactAdminService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IContactAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T19:36:36.78Z",
               "EditorCaption": ""
             }
           ]

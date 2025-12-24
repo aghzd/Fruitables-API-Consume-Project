@@ -1,12 +1,11 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Fruitables_FinalProject_MVC.Models.Basket
+﻿namespace Fruitables_FinalProject_MVC.Models.Basket
 {
     public class Basket
     {
-        public string AppUserId { get; set; }
-        [JsonPropertyName("basketItems")]
-        public List<BasketItem> Items { get; set; } = new();
-        public int TotalPrice => Items.Sum(i => i.TotalPrice);
+        public string CookieKey { get; set; }
+        public List<BasketItem> BasketItems { get; set; } = new List<BasketItem>();
+
+        public decimal TotalPrice
+            => BasketItems?.Sum(x => x.Price * x.Quantity) ?? 0;
     }
 }

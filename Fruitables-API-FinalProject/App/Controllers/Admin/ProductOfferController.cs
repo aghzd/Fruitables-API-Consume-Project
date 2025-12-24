@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.DTOs.Service;
 using Service.DTOs.SliderImage;
@@ -10,6 +11,7 @@ namespace App.Controllers.Admin
 {
     [Route("api/admin/[controller]/[action]")]
     [ApiController]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class ProductOfferController : ControllerBase
     {
         private readonly IProductOfferService _service;
@@ -26,6 +28,7 @@ namespace App.Controllers.Admin
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
          

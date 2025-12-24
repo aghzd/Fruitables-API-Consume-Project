@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Service.DTOs.StoreFeature;
 using Service.Helpers.Exceptions;
 using Service.Services.Interfaces;
@@ -7,6 +8,7 @@ namespace App.Controllers.Admin
 {
     [Route("api/admin/[controller]/[action]")]
     [ApiController]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class StoreFeatureController : ControllerBase
     {
         private readonly IStoreFeatureService _storeFeatureService;
@@ -45,6 +47,7 @@ namespace App.Controllers.Admin
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
           

@@ -1,5 +1,4 @@
 using Fruitables_FinalProject_MVC.Helpers.Handlers;
-using Fruitables_FinalProject_MVC.Models.StoreFeature;
 using Fruitables_FinalProject_MVC.Services;
 using Fruitables_FinalProject_MVC.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -27,7 +26,14 @@ builder.Services.AddScoped<IStatsCardService, StatsCardService>();
 builder.Services.AddScoped<IProductOfferService, ProductOfferService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
+builder.Services.AddScoped<IContactAdminService, ContactAdminService>();
+builder.Services.AddScoped<IContactService, ContactService>();
 
+
+builder.Services.AddHttpClient<BasketService>(client =>
+{
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+});
 
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -95,6 +101,16 @@ builder.Services.AddHttpClient<IStoreFeatureService, StoreFeatureService>(client
 })
 .AddHttpMessageHandler<JwtHandler>();
 
+builder.Services.AddHttpClient<IContactService, ContactService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7178/api/");
+});
+
+builder.Services.AddHttpClient<IContactAdminService, ContactAdminService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7178/api");
+})
+.AddHttpMessageHandler<JwtHandler>();
 
 var app = builder.Build();
 

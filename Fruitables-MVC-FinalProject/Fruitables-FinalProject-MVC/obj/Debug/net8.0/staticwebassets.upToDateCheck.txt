@@ -1888,6 +1888,7 @@ wwwroot\img\vegetable-item-3.png
 wwwroot\img\vegetable-item-4.jpg
 wwwroot\img\vegetable-item-5.jpg
 wwwroot\img\vegetable-item-6.jpg
+wwwroot\js\basket.js
 wwwroot\js\main.js
 wwwroot\lib\easing\easing.js
 wwwroot\lib\easing\easing.min.js
@@ -1910,4 +1911,3 @@ wwwroot\lib\owlcarousel\owl.carousel.js
 wwwroot\lib\owlcarousel\owl.carousel.min.js
 wwwroot\lib\waypoints\links.php
 wwwroot\lib\waypoints\waypoints.min.js
-wwwroot\js\basket.js

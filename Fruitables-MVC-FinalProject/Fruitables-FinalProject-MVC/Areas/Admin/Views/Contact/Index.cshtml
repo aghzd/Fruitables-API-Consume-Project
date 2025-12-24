@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Contact>
+<div class="container">
+    <h1 class="text-center mt-5">Contact</h1>
+    <div class="table-responsive">
+        <table class="table mt-2">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Message</th>
+                    <th scope="col">Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.Message</td>
+                        <td class="d-flex" style="gap:10px;">
+                            @* <button class="btn btn-danger  " data-id="@item.Id">Delete</button> *@
+                            <a class="btn btn-primary" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

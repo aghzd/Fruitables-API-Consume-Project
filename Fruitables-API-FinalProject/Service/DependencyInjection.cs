@@ -19,6 +19,7 @@ namespace Service
             services.AddScoped<IProductOfferService, ProductOfferService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IContactService, ContactService>();
             return services;
         }
     }

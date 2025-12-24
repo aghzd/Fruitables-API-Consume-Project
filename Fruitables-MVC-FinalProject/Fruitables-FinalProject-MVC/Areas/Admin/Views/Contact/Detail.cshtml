@@ -1,0 +1,24 @@
+﻿@model Contact
+
+<div class="container mt-5">
+    <form method="post" asp-action="Create" class="forms-sample">
+
+        <div class="form-group">
+            <label class="text-info">Name: </label>
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="form-group">
+            <label class="text-info">Email: </label>
+            <h3>@Model.Email</h3>
+        </div>
+
+         <div class="form-group">
+            <label class="text-info">Message: </label>
+            <h3>@Model.Message</h3>
+        </div>
+        
+
+        <a asp-action="Index" class="btn btn-light">Back</a>
+    </form>
+</div> 

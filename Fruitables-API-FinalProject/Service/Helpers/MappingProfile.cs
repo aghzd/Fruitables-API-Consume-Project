@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Service.DTOs.Account;
 using Service.DTOs.Basket;
 using Service.DTOs.Category;
+using Service.DTOs.Contact;
 using Service.DTOs.Product;
 using Service.DTOs.ProductImage;
 using Service.DTOs.Service;
@@ -57,10 +58,14 @@ namespace Service.Helpers
 
             CreateMap<BasketItem, BasketItemDto>()
                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name))
-               .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Product.Price));
+               .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Product.Price))
+               .ForMember(dest=>dest.Image,opt=>opt.MapFrom(src=>src.Product.ProductImages.FirstOrDefault(pi=>pi.IsMain==true).Name));
 
             CreateMap<Basket, BasketDto>()
                 .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.BasketItems));
+
+            CreateMap<ContactCreateDto, Contact>();
+            CreateMap<Contact, ContactDto>();
         }
     }
 }

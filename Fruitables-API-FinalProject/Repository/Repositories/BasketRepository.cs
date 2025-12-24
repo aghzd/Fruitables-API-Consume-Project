@@ -14,6 +14,7 @@ namespace Repository.Repositories
             return await _context.Baskets
                 .Include(b => b.BasketItems)
                 .ThenInclude(bi => bi.Product)
+                .ThenInclude(bi=>bi.ProductImages)
                 .FirstOrDefaultAsync(b => b.CookieKey == cookieKey);
         }
 

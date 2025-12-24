@@ -18,6 +18,7 @@ namespace Repository
             services.AddScoped<IStatsCardRepository, StatsCardRepository>();
             services.AddScoped<IProductOfferRepository, ProductOfferRepository>();
             services.AddScoped<IBasketRepository, BasketRepository>();
+            services.AddScoped<IContactRepository, ContactRepository>();
             return services;
         }
     }

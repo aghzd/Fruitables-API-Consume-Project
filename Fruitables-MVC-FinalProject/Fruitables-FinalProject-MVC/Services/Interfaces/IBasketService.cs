@@ -4,9 +4,8 @@ namespace Fruitables_FinalProject_MVC.Services.Interfaces
 {
     public interface IBasketService
     {
-        Task<Basket> GetBasketAsync(string userId);
-        //Task AddToBasketAsync(AddBasketItem model);
-        Task<bool> AddToBasketAsync(int productId);
-        Task RemoveFromBasketAsync(RemoveBasketItem model);
+        Task<Basket> GetBasketAsync();
+        Task AddItemAsync(AddBasketItem dto);
+        Task DeleteItemAsync(int productId);
     }
 }

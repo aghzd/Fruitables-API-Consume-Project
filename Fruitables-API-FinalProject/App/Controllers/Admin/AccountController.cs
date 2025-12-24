@@ -7,7 +7,7 @@ namespace App.Controllers.Admin
 {
     [Route("api/admin/[controller]/[action]")]
     [ApiController]
-    //[Authorize]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _service;
@@ -38,7 +38,7 @@ namespace App.Controllers.Admin
         }
 
         [HttpGet]
-        //[Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetRoles()
         {
             var roles = await _service.GetRolesAsync();

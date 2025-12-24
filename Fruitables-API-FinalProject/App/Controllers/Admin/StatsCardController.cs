@@ -9,7 +9,7 @@ namespace App.Controllers.Admin
 {
     [Route("api/admin/[controller]/[action]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class StatsCardController : ControllerBase
     {
         private readonly IStatsCardService _statsCardService;
@@ -49,6 +49,7 @@ namespace App.Controllers.Admin
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
          
